@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(50, 186, 240, 0.831);
+}
+.cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  /* height: 50vh; */
+  min-height: 50vh;
+  box-shadow: 10px 10px 15px rgba(50, 186, 240, 0.831),
+    12px 16px 20px rgba(50, 186, 240, 0.831),
+    17px 19px 15px rgba(31, 42, 46, 0.831);
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+  color: darkslateblue;
+}
+label {
+  color: darkblue;
+}
+#input-date,
+label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  width: 50%;
+  height: 30px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  padding: 5px 10px;
+}
+.checkbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid royalblue;
+  font-size: 1.2em;
+}
+.checkbtn:hover {
+  color: #ffff;
+  background: rgba(31, 42, 46, 0.831);
+}
+.output {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  color: rgba(240, 95, 73, 0.916);
+}
